@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Maxwell's Portfolio</title>
+  <!-- Link to the shared stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header>
+    <div class="brand">Ntente Awajinor Maxwell</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <section>
+      <h1>Welcome to My Portfolio</h1>
+      <p><strong>Name:</strong> Ntente Awajinor Maxwell</p>
+      <p><strong>Reg Number:</strong> AK22/PHS/CSC/067</p>
+      <p>
+        I am a final-year Computer Science student with a strong interest in
+        Artificial Intelligence and Web Development. This website showcases
+        my background, skills, and the projects I have worked on.
+      </p>
+    </section>
+
+    <!-- ===== MESSAGE FORM FOR DR ANIETIE ===== -->
+    <section>
+      <h2>Send a Message to Dr Anietie</h2>
+      <p>Use the box below to leave a message. It will be saved in your browser's storage.</p>
+
+      <div class="message-form">
+        <input type="text" id="messageInput" placeholder="Type your message here...">
+        <button class="btn" onclick="sendMessage()">Send Message</button>
+        <p id="confirmation"></p>
+      </div>
+
+      <h3>Previously Sent Messages:</h3>
+      <ul id="savedMessages"></ul>
+    </section>
+
+    <!-- ===== LINK TO THE RETAIL STORE WEBSITE ===== -->
+    <section>
+      <h2>Visit My Other Project</h2>
+      <p>Check out the phone accessories store website I also built:</p>
+      <a href="../store/index.html" class="btn">Go to Phone Accessories Store</a>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    &copy; 2026 Ntente Awajinor Maxwell | AK22/PHS/CSC/067
+  </footer>
+
+  <!-- Link to the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products - Phone Accessories Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header>
+    <div class="brand">📱 PhoneGear Store</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Our Products</h1>
+      <p>Click "Add to Cart" to add an item. Your cart is saved in this browser.</p>
+
+      <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="emoji-icon">🔌</div>
+          <h3>Fast Charger</h3>
+          <p class="price">₦4,500</p>
+          <button class="btn" onclick="addToCart('Fast Charger', 4500)">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="emoji-icon">🎧</div>
+          <h3>Wired Earphones</h3>
+          <p class="price">₦2,000</p>
+          <button class="btn" onclick="addToCart('Wired Earphones', 2000)">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="emoji-icon">🎧</div>
+          <h3>Bluetooth Earbuds</h3>
+          <p class="price">₦12,000</p>
+          <button class="btn" onclick="addToCart('Bluetooth Earbuds', 12000)">Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="emoji-icon">🔋</div>
+          <h3>10000mAh Power Bank</h3>
+          <p class="price">₦9,500</p>
+          <button class="btn" onclick="addToCart('10000mAh Power Bank', 9500)">Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="emoji-icon">🔋</div>
+          <h3>20000mAh Power Bank</h3>
+          <p class="price">₦15,000</p>
+          <button class="btn" onclick="addToCart('20000mAh Power Bank', 15000)">Add to Cart</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="emoji-icon">🔗</div>
+          <h3>USB-C Cable</h3>
+          <p class="price">₦1,500</p>
+          <button class="btn" onclick="addToCart('USB-C Cable', 1500)">Add to Cart</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <div class="emoji-icon">📱</div>
+          <h3>Phone Case</h3>
+          <p class="price">₦3,000</p>
+          <button class="btn" onclick="addToCart('Phone Case', 3000)">Add to Cart</button>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+          <div class="emoji-icon">🛡️</div>
+          <h3>Screen Protector</h3>
+          <p class="price">₦1,000</p>
+          <button class="btn" onclick="addToCart('Screen Protector', 1000)">Add to Cart</button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 PhoneGear Store | Built by Ntente Awajinor Maxwell
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

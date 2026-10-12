@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart - Phone Accessories Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header>
+    <div class="brand">📱 PhoneGear Store</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Your Shopping Cart</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <!-- Cart items are inserted here by JavaScript -->
+        <tbody id="cartItems"></tbody>
+      </table>
+
+      <p id="cartTotal">Total: ₦0</p>
+
+      <button class="btn btn-secondary" onclick="clearCart()">Clear Cart</button>
+      <a href="products.html" class="btn">Continue Shopping</a>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 PhoneGear Store | Built by Ntente Awajinor Maxwell
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

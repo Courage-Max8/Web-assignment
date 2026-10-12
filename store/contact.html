@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Phone Accessories Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header>
+    <div class="brand">📱 PhoneGear Store</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Contact Us</h1>
+      <p><strong>Store:</strong> PhoneGear Store</p>
+      <p><strong>Email:</strong> phonegearstore@example.com</p>
+      <p><strong>Phone:</strong> 0800-000-0000</p>
+    </section>
+
+    <section>
+      <h2>Send Us a Message</h2>
+      <!-- Demo form only - no backend server connected -->
+      <form class="contact-form" onsubmit="alert('Thank you for contacting PhoneGear Store!'); return false;">
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <!-- ===== LINK BACK TO THE PORTFOLIO WEBSITE ===== -->
+    <section>
+      <a href="../portfolio/index.html" class="btn btn-secondary">Back to Developer's Portfolio</a>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 PhoneGear Store | Built by Ntente Awajinor Maxwell
+  </footer>
+
+</body>
+</html>
